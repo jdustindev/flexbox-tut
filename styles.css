@@ -24,6 +24,12 @@
     justify-items: flex-end;
 }
 
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
 .login {
     margin-left: 20px;
 }
@@ -57,8 +63,35 @@
     align-items: center;
 }
 
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
 .photo-grid-item {
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
 }
